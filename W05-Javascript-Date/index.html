@@ -1,0 +1,100 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content ="width-device-width, initial-scale-1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Inka's Calendar</title>
+</head>
+<body>
+    
+    <input type="text" id="input1">
+
+    <script src="script.js" ></script>
+</body>
+</html> -->
+
+<html>
+    <head>
+        <title>Inka's Webpage</title>
+        <script src="calendar.js" async=""></script>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div>
+            <header>
+                <!-- <a href="#">LOGO</a> -->
+                <nav>
+                    <div class="logo">
+                        <h4>ink.</h4>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="#" class="cool-link">Calendar</a></li>
+                    </ul>
+                    <div class="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+    
+                    </div>
+                </nav>
+            </header>
+        </div>
+        
+
+        <div class="hero-bg">
+            <table>
+                <thead>
+                    <th>
+                        <div class="container">
+                            <label for="months">Month:</label>
+                            <select name="months" id="month">
+                                <option value="01">January</option>
+                                <option value="02">February</option>
+                                <option value="03">March</option>
+                                <option value="04">April</option>
+                                <option value="05">May</option>
+                                <option value="06">June</option>
+                                <option value="07">July</option>
+                                <option value="08">August</option>
+                                <option value="09">September</option>
+                                <option value="10">October</option>
+                                <option value="11">November</option>
+                                <option value="12">December</option>
+                
+                            </select>
+                        
+                            <label for="years">Year:</label>
+                            <input type="text" id="inputan" value="">
+                            <button onclick="ambildata(inputan.value,month.value)">Submit</button>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="container">
+                            <br>
+                            <br>
+                            
+                            <label for="months">Date Properties</label>
+                            <button onclick="showdate()">Click Me</button>
+                            <br>
+                            <br>
+                        
+                        </div>
+                    </th>
+                    <th id='info'>
+                        
+                    </th>
+                </thead>
+                
+                
+            </table>
+            
+            <div id="calendar"></div>
+            
+        </div>
+        
+        
+        
+        
+    </body>
+</html>
